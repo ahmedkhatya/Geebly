@@ -482,7 +482,7 @@
     const msg = `🛵 *طلب جديد — جيبلي*\n\n👤 الاسم: ${name}\n📱 الموبايل: ${phone}\n📍 العنوان: ${address}\n\n🏪 النوع: ${selectedCat}${shop ? '\n🏬 المحل: ' + shop : ''}\n\n📋 التفاصيل:\n${details}${notes ? '\n\n📝 ملاحظات: ' + notes : ''}`;
 
     // Replace XXXXXXXX with your actual WhatsApp number
-    const waNumber = '966543705987';
+    const waNumber = '00966543705987';
     const waURL = `https://wa.me/${waNumber}?text=${encodeURIComponent(msg)}`;
 
     window.open(waURL, '_blank');
